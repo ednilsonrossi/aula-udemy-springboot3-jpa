@@ -3,11 +3,22 @@ package br.com.ednilsonrossi.app_web_spring_udemy.model;
 import java.io.Serializable;
 import java.util.Objects;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
+
+@Entity						//Define que o classe será mapeada para uma tabela
+@Table(name = "tb_user") 	//Anotacao para renomear a tabela
 public class User implements Serializable{
 	
 	private static final long serialVersionUID = 1L;
 	
-	private Long id; //criado porque estou seguindo a aula, objetos não precisam de id.
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY) 	//Indica que a chave eh autoincremento
+	private Long id; 										//criado porque estou seguindo a aula, objetos não precisam de id.
+	
 	private String name;
 	private String email;
 	private String phone;
