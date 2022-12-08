@@ -22,7 +22,7 @@ public class User implements Serializable{
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY) 	//Indica que a chave eh autoincremento
-	private Long id; 										//criado porque estou seguindo a aula, objetos não precisam de id.
+	private Long id; 										//criado porque estou seguindo a aula, objetos não precisam de id. Contudo esse id está servindo de chave primária no BD.
 	
 	private String name;
 	private String email;
