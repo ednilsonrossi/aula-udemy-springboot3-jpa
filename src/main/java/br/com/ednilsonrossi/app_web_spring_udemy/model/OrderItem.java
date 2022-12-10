@@ -42,7 +42,7 @@ public class OrderItem implements Serializable{
 		return this.id.getOrder();
 	}
 	
-	public void serOrder(Order order) {
+	public void setOrder(Order order) {
 		this.id.setOrder(order);
 	}
 	
