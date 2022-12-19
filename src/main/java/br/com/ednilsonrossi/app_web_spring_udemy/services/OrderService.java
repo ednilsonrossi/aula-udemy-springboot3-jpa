@@ -7,7 +7,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import br.com.ednilsonrossi.app_web_spring_udemy.model.Order;
-import br.com.ednilsonrossi.app_web_spring_udemy.model.User;
 import br.com.ednilsonrossi.app_web_spring_udemy.repositories.OrderRepository;
 import br.com.ednilsonrossi.app_web_spring_udemy.services.exceptions.ResourceNotFoundException;
 
