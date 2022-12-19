@@ -1,6 +1,6 @@
 # Aula Spring Boot 3 - Curso Java 2019 da Udemy
 
-[(https://www.gnu.org/graphics/gplv3-127x51.png)](https://github.com/ednilsonrossi/aula-udemy-springboot3-jpa/blob/main/LICENCE)
+[![GNU3](https://www.gnu.org/graphics/gplv3-127x51.png)](https://github.com/ednilsonrossi/aula-udemy-springboot3-jpa/blob/main/LICENCE)
 
 # Sobre o projeto
 
