@@ -22,3 +22,7 @@ O projeto contém commits detalhando cada etapa, do projeto. Observa-se que é u
 git clone https://github.com/ednilsonrossi/aula-udemy-springboot3-jpa.git
 
 ```
+
+# Material do curso
+
+![Projeto web services com Spring Boot e JPA / Hibernate]()
