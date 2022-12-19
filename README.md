@@ -1,4 +1,6 @@
-# Aula Sprong Boot 3 - Curso Java 2019 da Udemy
+# Aula Spring Boot 3 - Curso Java 2019 da Udemy
+
+[(https://www.gnu.org/graphics/gplv3-127x51.png)](https://github.com/ednilsonrossi/aula-udemy-springboot3-jpa/blob/main/LICENCE)
 
 # Sobre o projeto
 
@@ -25,3 +27,9 @@ git clone https://github.com/ednilsonrossi/aula-udemy-springboot3-jpa.git
 # Material do curso
 
 ![Projeto web services com Spring Boot e JPA / Hibernate](https://github.com/ednilsonrossi/aula-udemy-springboot3-jpa/blob/main/assets/02-exercicios1-estrutura-sequencial.pdf)
+
+# Autor
+
+Ednilson Geraldo Rossi
+ednilsonrossi (at) gmail.com
+
