@@ -9,6 +9,7 @@ import org.springframework.stereotype.Service;
 import br.com.ednilsonrossi.app_web_spring_udemy.model.Order;
 import br.com.ednilsonrossi.app_web_spring_udemy.model.User;
 import br.com.ednilsonrossi.app_web_spring_udemy.repositories.OrderRepository;
+import br.com.ednilsonrossi.app_web_spring_udemy.services.exceptions.ResourceNotFoundException;
 
 
 @Service
@@ -23,6 +24,6 @@ public class OrderService {
 	
 	public Order findById(Long id) {
 		Optional<Order> optional = orderRepository.findById(id);
-		return optional.get();
+		return optional.orElseThrow(() -> new ResourceNotFoundException(id) );
 	}
 }

@@ -8,6 +8,7 @@ import org.springframework.stereotype.Service;
 
 import br.com.ednilsonrossi.app_web_spring_udemy.model.User;
 import br.com.ednilsonrossi.app_web_spring_udemy.repositories.UserRepository;
+import br.com.ednilsonrossi.app_web_spring_udemy.services.exceptions.ResourceNotFoundException;
 
 
 @Service
@@ -22,7 +23,7 @@ public class UserService {
 	
 	public User findById(Long id) {
 		Optional<User> optional = userRepository.findById(id);
-		return optional.get();
+		return optional.orElseThrow(() -> new ResourceNotFoundException(id) );
 	}
 	
 	public User insert(User obj) {
