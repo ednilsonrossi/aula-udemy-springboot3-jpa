@@ -20,9 +20,8 @@ O projeto contém commits detalhando cada etapa, do projeto. Observa-se que é u
 ```bash
 # clonar repositório
 git clone https://github.com/ednilsonrossi/aula-udemy-springboot3-jpa.git
-
 ```
 
 # Material do curso
 
-![Projeto web services com Spring Boot e JPA / Hibernate]()
+![Projeto web services com Spring Boot e JPA / Hibernate](https://github.com/ednilsonrossi/aula-udemy-springboot3-jpa/blob/main/assets/02-exercicios1-estrutura-sequencial.pdf)
